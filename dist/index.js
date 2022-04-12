@@ -1,9 +1,9 @@
 "use strict";
-let a = 1 + 2;
-let b = a + 3;
-let c = {
+const a = 1 + 2;
+const b = a + 3;
+const c = {
     apple: a,
     banana: b,
 };
-let d = c.apple * 4;
-//# sourceMappingURL=index.js.map
+const d = c.apple * 4;
+// # sourceMappingURL=index.js.map
