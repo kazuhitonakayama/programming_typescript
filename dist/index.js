@@ -6,4 +6,5 @@ const c = {
     banana: b,
 };
 const d = c.apple * 4;
+console.log(d);
 // # sourceMappingURL=index.js.map

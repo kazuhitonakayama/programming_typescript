@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "./node_modules/.bin/tsc && yarn fix:eslint",
+    "execute": "node ./dist/index.js",
     "lint:eslint": "./node_modules/.bin/eslint . --ext js,ts,tsx",
     "fix:eslint": "./node_modules/.bin/eslint . --ext js,ts,tsx --fix"
   },
